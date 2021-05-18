@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Чуешков Павел](https://up.htmlacademy.ru/htmlcss/31/user/1730179).
-* Наставник:[Павел Белобородов](https://htmlacademy.ru/profile/id466909).
+* Наставник: [Павел Белобородов](https://htmlacademy.ru/profile/id466909).
 
 ---
 
