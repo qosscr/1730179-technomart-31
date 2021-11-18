@@ -5,6 +5,8 @@
   <meta charset="utf-8" />
   <title>HTML Academy: Техномарт</title>
   <link rel="icon" href="favicon.ico" />
+  <link href="https://fonts.googleapis.com/css2?family=Cuprum:wght@400;700&family=PT+Sans:wght@400;700&display=swap"
+    rel="stylesheet">
 </head>
 
 <body class="page-body">
@@ -14,15 +16,17 @@
       <div>
         <a class="main-header-logo"><img src="img/logo.png" width="220" height="47" alt="Логотип Техномарт" /></a>
       </div>
-      <form action="https://echo.htmlacademy.ru" method="post">
-        <input type="search" name="search" id="search" placeholder="Поиск" />
+      <form class="header-search" action="https://echo.htmlacademy.ru" method="post">
+        <input class="header-search__input-field" type="search" name="search" id="search" placeholder="Поиск" />
         <label for="search"> </label>
       </form>
-      <ul>
-        <li><a href="blank.html">Закладки</a></li>
-        <li><a href="blank.html">Корзина</a></li>
-        <li><a href="blank.html">Оформить заказ</a></li>
-      </ul>
+      <section class="shop-link">
+        <ul class="shop-link__list">
+          <li><a href="blank.html">Закладки</a></li>
+          <li><a href="blank.html">Корзина</a></li>
+          <li><a href="blank.html">Оформить заказ</a></li>
+        </ul>
+      </section>
     </section>
     <section>
       <h2>Контактная информация</h2>
@@ -354,7 +358,8 @@
     <div>
       <div>
         <div>
-          <a class="button" href="index.html"><img src="img/logo220x68.png" width="220" height="68" alt="Логотип «Техномарт»" /></a>
+          <a class="button" href="index.html"><img src="img/logo220x68.png" width="220" height="68"
+              alt="Логотип «Техномарт»" /></a>
           <ul class="footer-nav">
             <li><a href="blank.html">Компания</a></li>
             <li><a href="blank.html">Новости</a></li>
