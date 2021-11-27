@@ -14,5 +14,21 @@ body {
     min-width: 960px;
     margin: 0px;
     padding: 0px;
-    font-family: ;
+    font-family: "PT Sans", Arial, sans-serif;
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #000;
+    text-transform: none;
+    background-color: var(--white);
+
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
