@@ -21,7 +21,6 @@ body {
     color: #000;
     text-transform: none;
     background-color: var(--white);
-
 }
 
 a {
@@ -49,26 +48,10 @@ img {
     color: var(--white);
     background-color: #293449;
 }
-
-/* Поисковая строка с корзиной и логотипом */
-.wrapper__logo {
-
-}
-
-.main-header-logo {
-
-}
-
-.header-search {
-}
-.header-search__input-field {
-}
-.shop-link {
-}
 .shop-link__list {
   list-style: none;
  }
-/*Форма регистрации*/
+
 .login-registration {
   list-style: none;
 }
@@ -82,104 +65,4 @@ img {
 .site-navigation a {
   list-style: none;
   color: var(--white);
-}
-.wrapper {
-}
-.product-categories {
-}
-.product-list {
-}
-.product-item {
-}
-.products {
-}
-.button {
-}
-.gallery-button {
-}
-.gallery-button-back {
-}
-.gallery-button-next {
-}
-.products-list {
-}
-.products-item {
-}
-.catalog-button {
-}
-.features {
-}
-.features-list {
-}
-.features-item {
-}
-.popular-products {
-}
-.popular-products-list {
-}
-.popular-product-item {
-}
-.popular-manufactres {
-}
-.manufactures-list {
-}
-.manufactures-item {
-}
-.manufactures-link {
-}
-.services {
-}
-.visually-hidden {
-}
-.services-list {
-}
-.services-item {
-}
-.description {
-}
-.send-request {
-}
-.about-company {
-}
-.partners-list {
-}
-.partners-item {
-}
-.contacts {
-}
-.map-button {
-}
-.modal {
-}
-.mail-modal {
-}
-.username {
-}
-.user-email {
-}
-.letter-text {
-}
-.page-footer {
-}
-.main-footer {
-}
-.footer-nav {
-}
-.footer-adres {
-}
-.footer-phone {
-}
-.footer-catalog {
-}
-.footer-catalog-item {
-}
-.footer-social {
-}
-.social-list {
-}
-.social-item {
-}
-.social-link {
-}
-.footer-copyright {
 }
