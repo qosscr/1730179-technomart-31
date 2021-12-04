@@ -13,38 +13,45 @@
 
 <body class="page-body">
   <header class="main-header">
+    <!--Верхняя поисковая строка, логотип и кнопки магазина-->
     <section class="search__header">
-      <h2>Интернет-магазин</h2>
-      <div class="wrapper__logo">
+      <h2><span class="hidden">Интернет-магазин</span></h2>
+      <div class="wrapper">
         <a class="main-header-logo"><img src="img/logo.png" width="220" height="47" alt="Логотип Техномарт" /></a>
-      </div>
-      <form class="header-search" action="https://echo.htmlacademy.ru" method="post">
-        <input class="header-search__input-field" type="search" name="search" id="search" placeholder="Поиск" />
-        <label for="search"> </label>
-      </form>
-      <section class="shop-link">
+
+        <form class="header-search" action="https://echo.htmlacademy.ru" method="post">
+          <input class="header-search__input-field" type="search" name="search" id="search" placeholder="Поиск" />
+          <label for="search"> </label>
+        </form>
+
         <ul class="shop-link__list">
-          <li><a class="shop-link__list-item" href="blank.html">Закладки</a></li>
-          <li><a class="shop-link__list-item" href="blank.html">Корзина</a></li>
-          <li><a class="shop-link__list-item" href="blank.html">Оформить заказ</a></li>
+          <li><a class="button shop-link__list-item" href="blank.html">Закладки</a></li>
+          <li><a class="button shop-link__list-item" href="blank.html">Корзина</a></li>
+          <li><a class="button shop-link__list-item" href="blank.html">Оформить заказ</a></li>
         </ul>
-      </section>
+
+      </div>
     </section>
+<!--Contact info in header-->
     <section class="contact-info">
-      <h2>Контактная информация</h2>
-      <p>
-        Интернет-магазин<br />строительных материалов<br />и инструментов для
-        ремонта
-      </p>
-      <p>
-        <a href="tel:+78005558628">+7 800 555 86 28</a><br />
-        г. Санкт-Петербург, наб. Реки Карповки, 5 лит П
-      </p>
-      <ul class="login-registration__list">
-        <li><a class="button" href="blank.html">Вход</a></li>
-        <li><a class="button" href="blank.html">Регистрация</a></li>
-      </ul>
+      <h2><span class="hidden">Контактная информация</span></h2>
+      <div class="wrapper">
+        <p>
+          Интернет-магазин<br />строительных материалов<br />и инструментов для
+          ремонта
+        </p>
+        <div class="contact-info__contacts">
+          <a class="contact-info__contacts-phone" href="tel:+78005558628">+7 800 555 86 28</a><br />
+          <p class="contact-info__contacts-adress">г. Санкт-Петербург, наб. Реки Карповки, 5 лит П
+          </p>
+        </div>
+        <ul class="login-registration__list">
+          <li><a class="button login-registration__button login-button" href="blank.html">Войти</a></li>
+          <li><a class="button login-registration__button" href="blank.html">Регистрация</a></li>
+        </ul>
+      </div>
     </section>
+    <!--main navigation block-->
     <nav class="main-navigation">
       <ul class="site-navigation">
         <li class="site-navigation__item"><a href="index.html">Главная</a></li>
@@ -56,9 +63,10 @@
         <li class="site-navigation__item"><a href="blank.html">Контакты</a></li>
       </ul>
     </nav>
+
   </header>
 
-  <main class="wrapper">
+  <main>
     <h1>Интернет-магазин: Техномарт</h1>
     <section class="product-categories">
       <h2>Категории товаров</h2>
