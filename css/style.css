@@ -24,45 +24,11 @@ body {
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
-.main-header {
-    font-family: "Cuprum", Arial, sans-serif;
-    font-size: 14px;
-    line-height: 24px;
-    font-weight: 400;
-    color: #324425c;
-    background-color: var(--basic-background);
-}
-
-.search__header {
-    font-size: 18px;
-    line-height: 24px;
-    font-weight: 400;
-    color: var(--white);
-    background-color: #293449;
-}
-.shop-link__list {
-  list-style: none;
- }
-
-.login-registration {
-  list-style: none;
-}
-.main-navigation {
-  font-size: 18px;
-    line-height: 24px;
-    font-weight: 400;
-    color: var(--white);
-    background-color: #293449;
-}
-.site-navigation a {
-  list-style: none;
-  color: var(--white);
-}
