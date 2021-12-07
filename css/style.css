@@ -32,6 +32,14 @@ img {
   height: auto
 }
 
+.wrapper {
+  width: 940px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
 .hidden {
   position: absolute;
   width: 1px;
@@ -83,19 +91,30 @@ img {
 }
 
 .search__header {
-  background-color: var(--basic-grey);
+  background-color: #293449;
   height: 42px;
   font-size: 17px;
   line-height: 18px;
 }
-
-.wrapper {
-  width: 940px;
+/* форма поиска*/
+.header-search{
+  position: relative;
+  width: 270px;
   height: 100%;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
 }
+
+.header-search__input-field{
+  background-color: #293449;
+  padding: 0 10px 0 49px;
+  border: 0;
+  height: 100%;
+  width: 100%;
+  color: var(--white);
+  outline: 0;
+}
+ .header-search__input-field:focus{
+   background-color: var(--white);
+ }
 
 .shop-link__list {
   list-style: none;
