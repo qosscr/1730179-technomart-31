@@ -219,16 +219,36 @@ img {
 /*блок product-categories*/
 
 .product-categories{
-  font-family: "Cuprum" Arial, sans-serif;
+  font-family: Cuprum Arial, sans-serif;
   font-size: 24px;
   line-height: 30px;
 }
 
 .product-list{
   list-style: none;
+  align-items: center;
 }
 
+.product-item {
+  width: 300px;
+  height: 100%;
+  color: var(--white);
+  }
 
+.product-item__material {
+  background-color: #FFBF47;
+}
 
+.product-item__tools {
+  background-color: #3BBCE3 ;
+}
 
-
+.product-item__vehicles{
+  background-color: #DC91D8;
+}
+.product-list__link{
+background: rgba(255, 255, 255, 0.3);
+max-width: 135px;
+font-size: 14px;
+line-height: 18px;
+align-items: center;
