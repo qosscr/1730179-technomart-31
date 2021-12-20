@@ -252,3 +252,8 @@ max-width: 135px;
 font-size: 14px;
 line-height: 18px;
 align-items: center;
+}
+
+.products{
+  font-family: Cuprum Arial, sans-serif;
+}
