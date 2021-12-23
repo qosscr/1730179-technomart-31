@@ -1,26 +1,26 @@
 :root {
---basic-red: #EE3643;
---basic-green: #63A63E;
---basic-grey: #3D546F;
---basic-greylight: #C5C5C5;
---basic-background: #F1F5F7;
---white: #FFFFFF;
---special-ylellow: #FFBF47;
---success: #5FBB2D;
---error: #BA2732;
+  --basic-red: #EE3643;
+  --basic-green: #63A63E;
+  --basic-grey: #3D546F;
+  --basic-greylight: #C5C5C5;
+  --basic-background: #F1F5F7;
+  --white: #FFFFFF;
+  --special-ylellow: #FFBF47;
+  --success: #5FBB2D;
+  --error: #BA2732;
 }
 
 body {
-    min-width: 960px;
-    margin: 0px;
-    padding: 0px;
-    font-family: "PT Sans", Arial, sans-serif;
-    font-size: 13px;
-    line-height: 24px;
-    font-weight: 400;
-    color: #000;
-    text-transform: none;
-    background-color: var(--white)
+  min-width: 960px;
+  margin: 0px;
+  padding: 0px;
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #000;
+  text-transform: none;
+  background-color: var(--white)
 }
 
 a {
@@ -52,6 +52,7 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden
 }
+
 /*Все кнопки на странице*/
 .button {
   align-items: center;
@@ -96,14 +97,15 @@ img {
   font-size: 17px;
   line-height: 18px;
 }
+
 /* форма поиска*/
-.header-search{
+.header-search {
   position: relative;
   width: 270px;
   height: 100%;
 }
 
-.header-search__input{
+.header-search__input {
   background-color: #293449;
   padding: 0 10px 0 49px;
   border: 0;
@@ -113,19 +115,19 @@ img {
   outline: 0;
 }
 
- .header-search__input:hover{
-   background-color: #293449;
- }
+.header-search__input:hover {
+  background-color: #293449;
+}
 
- .header-search__input::placeholder{
-   color: #FFFFFF;
- }
+.header-search__input::placeholder {
+  color: #FFFFFF;
+}
 
- .header-search:hover{
+.header-search:hover {
   background-color: #293449
- }
+}
 
- .header-search__input:focus{
+.header-search__input:focus {
   background-color: var(--white);
   color: #000;
   fill: var(--basic-red);
@@ -141,6 +143,7 @@ img {
   padding: 0;
   margin-left: auto;
 }
+
 /*регистрация контакты*/
 .contact-info {
   align-items: flex-start;
@@ -166,14 +169,14 @@ img {
   max-width: 197px;
 }
 
-.contact-info__contacts{
+.contact-info__contacts {
   margin-left: 71px;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-.contact-info__contacts-phone{
+.contact-info__contacts-phone {
   display: flex;
   align-items: center;
   font-size: 21px;
@@ -184,14 +187,15 @@ img {
   border: 3px solid var(--white);
 }
 
-.contact-info__contacts-adress{
+.contact-info__contacts-adress {
   font-size: 14px;
   line-height: 24px;
   margin: 3px 0 0;
   max-width: 270px;
 }
+
 /*навигационная панель*/
-.site-navigation{
+.site-navigation {
   margin: 40px 0 60px;
   padding: 0;
   list-style: none;
@@ -218,13 +222,13 @@ img {
 /*стили для main*/
 /*блок product-categories*/
 
-.product-categories{
+.product-categories {
   font-family: Cuprum Arial, sans-serif;
   font-size: 24px;
   line-height: 30px;
 }
 
-.product-list{
+.product-list {
   list-style: none;
   align-items: center;
 }
@@ -233,27 +237,52 @@ img {
   width: 300px;
   height: 100%;
   color: var(--white);
-  }
+}
 
 .product-item__material {
   background-color: #FFBF47;
 }
 
 .product-item__tools {
-  background-color: #3BBCE3 ;
+  background-color: #3BBCE3;
 }
 
-.product-item__vehicles{
+.product-item__vehicles {
   background-color: #DC91D8;
 }
-.product-list__link{
-background: rgba(255, 255, 255, 0.3);
-max-width: 135px;
-font-size: 14px;
-line-height: 18px;
-align-items: center;
+
+.product-list__link {
+  background: rgba(255, 255, 255, 0.3);
+  max-width: 135px;
+  font-size: 14px;
+  line-height: 18px;
+  align-items: center;
 }
 
-.products{
+.features-list__link {
+  background: rgba(255, 255, 255, 0.3);
+  max-width: 135px;
+  font-size: 14px;
+  line-height: 18px;
+  align-items: center;
+}
+
+.features-item__discounts{
+  background-color: #8ED78F;
+}
+
+.features-item__delivery{
+  background-color: #FFBF47;
+}
+
+.features-list{
+  list-style: none;
+}
+
+.features-item {
   font-family: Cuprum Arial, sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  color: var(--white);
 }
